@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background: rgb(238, 234, 234);
+}
+h1{
+    font-size: 120px;
+text-align: center;
+color: rgb(201, 226, 200);
+}
+.parallax-1{
+
+    background-image: url("./photo-1710001054691-5a2837d42268.avif") no-repeat;
+
+    /* border: 2px solid red; */
+    background-size: cover;
+    background-position: center;
+    background-attachment:  fixed;
+}
+.parallax-2{
+
+    background: url("./i2.jpg") no-repeat;
+    /* height:1000px; */
+    /* border: 2px solid red; */
+    background-size: cover;
+    background-position: center;
+    background-attachment:  fixed;
+}
+.parallax-3{
+
+    background: url(./i3.jpg) no-repeat;
+    /* height:1000px; */
+    /* border: 2px solid red; */
+    background-size: cover;
+    background-position: center;
+    background-attachment:  fixed;
+}
+.parallax-inner{
+    padding: 10% 0;
+}
+h2{
+   
+font-weight: 300;
+letter-spacing: 2px;
+margin:20px 0 10px;
+
+
+
+}
+p{
+  font-size: 16px;
+color:#555;
+text-align: center;
+line-height: 30px;
+margin: 0 50px 40px;
+}
+
+  
+   
+
+
